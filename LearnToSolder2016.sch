@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1424,24 +1424,41 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </class>
 </classes>
 <parts>
-<part name="BAT1" library="LearnToSolder2016" deviceset="BATTERY" device="20PTH"/>
+<part name="BATTERY" library="LearnToSolder2016" deviceset="BATTERY" device="20PTH"/>
 <part name="D1" library="LearnToSolder2016" deviceset="LED" device="5MM"/>
 <part name="D2" library="LearnToSolder2016" deviceset="LED" device="5MM"/>
-<part name="U$1" library="LearnToSolder2016" deviceset="SWITCH_SPST" device=""/>
-<part name="U$2" library="LearnToSolder2016" deviceset="SWITCH_SPST" device=""/>
+<part name="S1" library="LearnToSolder2016" deviceset="SWITCH_SPST" device=""/>
+<part name="S2" library="LearnToSolder2016" deviceset="SWITCH_SPST" device=""/>
 <part name="U$3" library="SchmalzHaus" deviceset="SCHMALZHAUS" device="SCHMALZHAUS_SMALL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="68.072" y="13.97" size="1.778" layer="95">+</text>
+<text x="78.74" y="14.224" size="1.778" layer="95">-</text>
 </plain>
 <instances>
-<instance part="BAT1" gate="G$1" x="83.82" y="5.08"/>
-<instance part="D1" gate="G$1" x="48.26" y="66.04"/>
-<instance part="D2" gate="G$1" x="121.92" y="68.58"/>
-<instance part="U$1" gate="G$1" x="53.34" y="30.48"/>
-<instance part="U$2" gate="G$1" x="124.46" y="33.02"/>
-<instance part="U$3" gate="G$1" x="71.12" y="50.8"/>
+<instance part="BATTERY" gate="G$1" x="73.66" y="12.7" smashed="yes">
+<attribute name="NAME" x="68.834" y="4.826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.85" y="6.35" size="1.778" layer="96"/>
+</instance>
+<instance part="D1" gate="G$1" x="53.34" y="45.72" smashed="yes">
+<attribute name="NAME" x="56.642" y="43.688" size="1.778" layer="95"/>
+<attribute name="VALUE" x="59.055" y="41.148" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D2" gate="G$1" x="116.84" y="45.72" smashed="yes">
+<attribute name="NAME" x="119.38" y="43.688" size="1.778" layer="95"/>
+<attribute name="VALUE" x="122.555" y="41.148" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="S1" gate="G$1" x="68.58" y="30.48" smashed="yes">
+<attribute name="NAME" x="67.818" y="27.432" size="1.27" layer="95"/>
+<attribute name="VALUE" x="62.738" y="25.146" size="1.27" layer="96"/>
+</instance>
+<instance part="S2" gate="G$1" x="101.6" y="30.48" smashed="yes">
+<attribute name="NAME" x="100.584" y="27.178" size="1.27" layer="95"/>
+<attribute name="VALUE" x="95.758" y="24.638" size="1.27" layer="96"/>
+</instance>
+<instance part="U$3" gate="G$1" x="0" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -1449,45 +1466,45 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="N$1" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="60.96" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="40.64" x2="53.34" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="63.5" x2="134.62" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="40.64" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="30.48" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<pinref part="BAT1" gate="G$1" pin="-"/>
-<wire x1="111.76" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="33.02" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="30.48" x2="88.9" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="30.48" x2="88.9" y2="30.48" width="0.1524" layer="91"/>
-<junction x="88.9" y="30.48"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="BATTERY" gate="G$1" pin="-"/>
+<wire x1="88.9" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="30.48" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<junction x="83.82" y="30.48"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="121.92" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="71.12" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="71.12" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
-<junction x="83.82" y="71.12"/>
-<wire x1="83.82" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="78.74" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="BAT1" gate="G$1" pin="+"/>
-<wire x1="25.4" y1="2.54" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="2.54" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="48.26" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="53.34" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<junction x="83.82" y="53.34"/>
+<wire x1="83.82" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="BATTERY" gate="G$1" pin="+"/>
+<wire x1="43.18" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
