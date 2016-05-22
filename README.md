@@ -1,5 +1,7 @@
 # LearnToSolder2016
 
+![Learn To Solder 2016 Board, assembled](https://github.com/SchmalzHaus/LearnToSolder2016/raw/master/pics/AssembledBoardFrontsm.png "Learn To Solder 2016 Board, assembled")
+
 ## Introduction
 
 For the past couple years, Deanan Schmalz has designed a simple circuit board which we then use to teach learn to solder classes. We  make enough boards and buy enough parts to teach all of the 4th graders at Glen Lake Elmementary School in Minnetonka Minnestoa, USA how to solder. 
@@ -12,9 +14,11 @@ This same board design was used at our booth at the 2016 MSP Mini Maker Faire, w
 
 All text files and designs on this site are Open Source. You are free to use these files and do whatever you wish with them.
 
+![Bare Board, back and front](https://github.com/SchmalzHaus/LearnToSolder2016/raw/master/pics/BoardFrontAdnBacksm.png "Bare Board, back and front")
+
 ## LearnToSolder 2016 Kit Contents
 
-* Qty 1 Bare Circuit Board
+* Qty 1 Bare Circuit Board (see above image for back and front views of the bare board)
 * Qty 2 Switches
 * Qty 2 Blinking LEDs
 * Qty 1 Battery Holder
