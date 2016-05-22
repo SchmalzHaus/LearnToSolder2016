@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For the past couple years, Deanan Schmalz designs a simple circuit board. We then make enouhg boards and buy enough parts to teach all of the 4th graders at Glen Lake Elmementary School in Minnetonka Minnestoa, USA how to solder. 
+For the past couple years, Deanan Schmalz has designed a simple circuit board which we then use to teach learn to solder classes. We  make enough boards and buy enough parts to teach all of the 4th graders at Glen Lake Elmementary School in Minnetonka Minnestoa, USA how to solder. 
 
 This site contains all of the information related to this year's Learn To Solder board. If you want to learn more about how to solder, if you want to know what you need to purcahse so you can solder at home, or if you want to make more of these boards for yourself or your organization, this site has everything you'll need.
 
@@ -10,7 +10,7 @@ If you want to reach Brian Schmalz (brian@schmalzaus.com) or Deanna (deanna@schm
 
 This same board design was used at our booth at the 2016 MSP Mini Maker Faire, with one small change in the silk screen text. If you got a board from us at the Maker Faire, all of this information applies as well.
 
-All text files and designs on this site are Open Source, relased to the public domain. You are free to use these files and do whatever you wish with them.
+All text files and designs on this site are Open Source. You are free to use these files and do whatever you wish with them.
 
 ## LearnToSolder 2016 Kit Contents
 
@@ -67,4 +67,4 @@ Adafruit [https://www.adafruit.com/]
 * Their Minty Boost is actually quite useful [https://www.adafruit.com/products/14]
 
 SeeedStudio [http://www.seeedstudio.com/]
-* Their 4-Soldering Zoo Kit looks super [cute https://www.seeedstudio.com/item_detail.html?p_id=1950]
+* Their 4-Soldering Zoo Kit looks super cute [https://www.seeedstudio.com/item_detail.html?p_id=1950]
