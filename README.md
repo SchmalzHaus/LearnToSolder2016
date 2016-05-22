@@ -67,4 +67,4 @@ Adafruit [https://www.adafruit.com/]
 * Their Minty Boost is actually quite useful [https://www.adafruit.com/products/14]
 
 SeeedStudio [http://www.seeedstudio.com/]
-* Their 4-Soldering Zoo Kit looks super [cute https://www.seeedstudio.com/item_detail.html?p_id=1950]
+* Their 4-Soldering Zoo Kit looks super cute [https://www.seeedstudio.com/item_detail.html?p_id=1950]
