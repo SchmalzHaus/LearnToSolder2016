@@ -52,6 +52,28 @@ All of the companies listed below sell small wire cutters, or you can get them l
 
 There are lots of other tools you can get to help you while solder. Third-hands can be very useful. Needle nose pliers, solder suckers, magnifying glasses, solder wick, wire strippers, etc.
 
+## Kit Assembly Process (overview)
+
+There are only a couple steps to assembling this kit, as it is very simple. If you have done soldering before, you can just walk through this overview of the steps to complete your kit. If you want to learn more about how to do the actual soldering of a joint, the following websites and resources will give you plenty of background materials and explinations:
+
+https://learn.sparkfun.com/tutorials/how-to-solder---through-hole-soldering
+
+http://www.howtogeek.com/63630/how-to-use-a-soldering-iron-a-beginners-guide/
+
+https://cdn-learn.adafruit.com/downloads/pdf/adafruit-guide-excellent-soldering.pdf
+
+### Steps:
+
+1. Insert the two switches into the board. Make sure all parts go into the board from the top side (with the thick white lines) to the back side (with all of the text). The switches snap down into the board - you sometimes have to press them in hard to get them to snap. Solder the four pins of each switch.
+
+2. Insert the two LEDs. Long wires go into square holes. You sometimes have to wiggle the LEDs a bit to get them to press all the way flat down on the top side of the board due to a thick spot on the LED leads. Bend the leads apart on the back side to keep the LEDs in place as you solder the LED wires on the back side of the board.
+
+3. Insert the battery holder to the front of the board, being careful to align the outline of the battery hold to the white outline on the top of the board (there is a square tab on the battery holder than needs to match up to the square tab part of the outline). While holding the battery holder into the board, flip it over and solder both pins.
+
+4. Insert the battery into the holder, flat shiny side up. Press the buttons to see your LEDs light. If you hold down a button, it's LED will begin to cycle through different colors and begin to blink.
+
+You can follow the path of the electricy by looking at the thick white line on the top side of the board, or the thinner copper wires on the back side of the board. (They mirror each other.) 
+
 ## Other Soldering Kits
 
 There are SO MANY kits available today, it's impossible to list all of them, or even the good ones. If you do a Google search for "electronic soldering kit" you will find lots of them out there. Some are easier than others, and some come with great instructions (and some don't).
